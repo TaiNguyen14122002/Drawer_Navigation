@@ -48,11 +48,13 @@ export default function App() {
     
    
       <NavigationContainer>
-        <Drawer.Navigator initialRouteName='May_tinh' drawerContent={(props) => <CustomDrawerContent3 {...props} />}>
+        <Drawer.Navigator  initialRouteName="Bai_1">
           <Drawer.Screen name ="Bai_1" component={Project_1}/>
           <Drawer.Screen name ="May_tinh" component={Calculator}/>
+          <Drawer.Screen name ="Bai_8" component={Project_8}/>
         </Drawer.Navigator>
       </NavigationContainer>
+      
       
     
   );
